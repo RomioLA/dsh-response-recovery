@@ -7,6 +7,11 @@
   "exports": {
     ".": "./src/index.js"
   },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
   "description": "Preserve visible streamed text after terminal upstream failures in DSH.",
   "license": "MIT",
   "keywords": [
