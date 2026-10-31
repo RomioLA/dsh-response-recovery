@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-response-recovery
+      name: dsh-response-recovery
+      inject: [agents, sessions]

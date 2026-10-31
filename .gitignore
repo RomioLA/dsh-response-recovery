@@ -1,0 +1,29 @@
+# Local source and installation artifacts
+_upstream/
+.reference/
+.local-deploy/
+node_modules/
+*.tgz
+*.log
+# Local temporary, backup and machine-specific data
+*.bak
+*.backup
+*.orig
+*~
+*.tmp
+.tmp/
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+# Private runtime data and credentials (not release sources)
+.env
+.env.*
+!.env.example
+sessions/
+*.session
+*.session.json
+*.jsonl
+*.key
+*.pem
+*.pfx
